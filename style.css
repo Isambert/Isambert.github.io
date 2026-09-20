@@ -40,7 +40,7 @@ a:hover{color:var(--accent-dark);text-decoration-thickness:2px}
 .topbar nav a:hover{background:var(--tint);color:var(--accent-dark)}
 .topbar nav a[aria-current="page"]{background:var(--tint);color:var(--accent-dark);font-weight:600}
 
-.layout{display:grid;grid-template-columns:14rem minmax(0,1fr);min-height:calc(100vh - 4rem)}
+.layout{display:grid;grid-template-columns:16.5rem minmax(0,1fr);min-height:calc(100vh - 4rem)}
 
 /* Profile sidebar */
 .profile{
@@ -48,13 +48,13 @@ a:hover{color:var(--accent-dark);text-decoration-thickness:2px}
   border-right:1px solid var(--rule);
   display:flex;flex-direction:column;align-items:flex-start;gap:1rem;
 }
-.photo{width:9.5rem;height:12rem;border-radius:.5rem;object-fit:cover;background:var(--tint);display:block}
+.photo{width:10.5rem;height:13rem;border-radius:.5rem;object-fit:cover;background:var(--tint);display:block}
 .role{font-family:var(--sans);font-size:.92rem;line-height:1.45;color:var(--muted);margin:0}
-.icons{list-style:none;display:flex;flex-wrap:wrap;gap:.55rem;margin:.25rem 0 0;padding:0}
+.icons{list-style:none;display:flex;flex-wrap:nowrap;gap:.5rem;margin:2.6rem 0 0;padding:0}
 .icons a{
   display:inline-flex;align-items:center;justify-content:center;
-  width:2.15rem;height:2.15rem;border-radius:50%;
-  background:var(--tint);color:var(--accent);font-size:1rem;line-height:1;
+  width:2rem;height:2rem;flex:0 0 auto;border-radius:50%;
+  background:var(--tint);color:var(--accent);font-size:.92rem;line-height:1;
   text-decoration:none;
 }
 .icons a:hover{background:var(--accent);color:#fff}
@@ -116,7 +116,7 @@ body.compact .courses .level{font-size:.85rem}
     padding:1.25rem;gap:1rem;
   }
   .photo{width:5.5rem;height:7rem}
-  .icons{margin:0;width:100%}
+  .icons{margin:0;width:100%;flex-wrap:wrap}
   main{padding:1.75rem 1.25rem 3.5rem}
   h1{font-size:1.75rem}
   .cv-frame{height:70vh}
