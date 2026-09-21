@@ -72,9 +72,9 @@ p{margin:0 0 1.1rem}
 .papers{list-style:none;margin:0;padding:0;font-size:.97rem;line-height:1.5}
 .papers li{padding:.4rem 0 .4rem .9rem;border-left:3px solid var(--rule);margin:0 0 .5rem}
 .papers li.forthcoming{border-left-color:var(--accent)}
-.papers .title{font-weight:600;display:block;color:var(--ink)}
-.papers .title a{color:var(--ink)}
-.papers .title a:hover{color:var(--ink)}
+.papers .title{font-weight:600;display:block;color:var(--accent)}
+.papers .title a{color:var(--accent)}
+.papers .title a:hover{color:var(--accent-dark)}
 .papers .with,.papers .venue{display:block;font-size:.93rem}
 .papers .status{
   display:inline-block;font-family:var(--sans);font-size:.8rem;font-weight:500;
