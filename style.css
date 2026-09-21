@@ -79,6 +79,12 @@ p{margin:0 0 1.1rem}
   background:var(--tint);color:var(--accent-dark);padding:0 .5rem;border-radius:.25rem;margin-top:.2rem;
 }
 .papers .note{display:block;font-size:.85rem;color:var(--muted);margin-top:.2rem}
+.papers .pdf-tag{
+  display:inline-block;font-family:var(--sans);font-size:.68rem;font-weight:700;letter-spacing:.03em;
+  text-transform:uppercase;color:var(--accent-dark);background:var(--tint);
+  padding:.05rem .4rem;border-radius:.2rem;margin-left:.45rem;vertical-align:middle;
+}
+.papers a:hover .pdf-tag{background:var(--accent);color:#fff}
 
 /* Teaching */
 .courses{list-style:none;margin:0 0 1rem;padding:0}
